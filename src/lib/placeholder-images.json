@@ -1,3 +1,10 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "video-feed-1",
+      "description": "A dense crowd at an outdoor event, viewed from a high angle.",
+      "imageUrl": "https://images.unsplash.com/photo-1574602904324-a9ac0fe65331?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjcm93ZCUyMGV2ZW50fGVufDB8fHx8MTc2MjgyOTc4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crowd event"
+    }
+  ]
 }
