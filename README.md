@@ -24,7 +24,7 @@ Our solution is a two-stage pipeline: an Autoencoder for feature compression and
 ### Stage 1: Autoencoder (Efficient Feature Extraction)
 Raw 100x100 grayscale images (10,000 pixels) are too large for real-time classification. We first pass the image through an **Autoencoder** to compress it into a dense 2,500-pixel feature vector. This intelligently preserves the most important patterns while discarding noise.
 
-<img src="https://github.com/Prateekpkini/IndraNetra/blob/main/img2.png" width="600" />
+<img src="https://github.com/Prateekpkini/IndraNetra/blob/main/Backend/img2.png" width="600" />
 
 ### Stage 2: Multi-Column CNN (Scale-Invariant Classification)
 This 2,500-pixel vector is then fed into our novel **Multi-Column Convolutional Neural Network (MCNN)**.
@@ -35,7 +35,7 @@ This 2,500-pixel vector is then fed into our novel **Multi-Column Convolutional 
 
 This multi-scale approach is what makes our solution unique and robust, allowing it to outperform models that only look for one feature, like "head count."
 
-<img src="https://github.com/Prateekpkini/IndraNetra/blob/main/img1.png" width="800" />
+<img src="https://github.com/Prateekpkini/IndraNetra/blob/main/Backend/img1.png" width="800" />
 
 ## 4. Results & Validation
 The model was trained and validated on a custom dataset of 1200+ images compiled from various sources. The dataset was manually labeled as `stampede` (1) or `non-stampede` (0).
